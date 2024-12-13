@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+            <title>kami site</title>
+       
+        <meta name="description" content=" Um quiz interativo para testas seus conhecimentos"> 
+
+    </head>
+
+
+    <body>
+        
+            
+        <header>
+
+            <h1>Quiz interativo de conhecimetos gerais </h1>
+            <p>Teste os seus conhecimentos gerais e veja qual pontuação você consegue fazer!</p>
+        </header>
+        <main>
+            <!--Introdução-->
+            <section>
+                <h2>Sobre esse <abbr title="Um quiz é um tipo de jogo ou atividade interativa que consiste em uma série de perguntas, geralmente de múltipla escolha ou de respostas curtas, cujo objetivo é testar o conhecimento de uma pessoa sobre um determinado tema.">Quiz</abbr>
+                </h2>
+                <p><strong>Este quiz</strong> foi desenvolvido para que você possa ver qual seu nível de <em>conhecimentos do mundo</em> e de <em>conhecimento geral.</em></p>
+                <p>Você encontrará diferentes tipos de perguntas, incluindo múltipla escolha, texto e perguntas de data.</p><br> <strong>Desafie-se com esse quiz!</strong>
+            </section>
+            <!--Pergunta 1: multipla escolha-->
+            <section>
+                <h2>Pergunta 1:Qual é o maior planeta do sistema solar? </h2>
+                <form>
+                    <input type="radio" value="saturno" id="P1a" name="Pergunta1">
+                    <label for="p1a">Saturno</label> <br>
+                    <input type="radio" value="Jupiter" id="P1b" name="Pergunta1">
+                    <label for="p1b">jupiter</label> <br>
+                    <input type="radio" value="marte" id="P1c" name="Pergunta1">
+                    <label for="p1c">marte</label> <br>
+                    <input type="radio" value="Nenhuma da anteriores" id="P1d" name="Pergunta1">
+                    <label for="p1d">Nenhuma da anteriores</label> <br>
+                </form>
+            </section>
+            <!--Pergunta 2: texto-->
+            <section>
+                <h2> O corpo humano é composto por trilhões de células, a unidade fundamental da vida, que juntas são responsáveis pela formação de tecidos que protegem o organismo do mundo exterior. <br> E vários outros que são responsáveis pela formação das cavidades internas. As células se agrupam e formam os órgãos, que são coleções estruturadas de células com funções específicas. <br> Os órgãos estão interligados um ao outro e fazem partes de sistemas específicos, os quais mantém a manutenção da constituição física humana.  </h2>
+                <h2> <p>Já sabemos que o corpo humano têm uma estrutura incrível. <br> Mas o maior órgão do corpo humano é a _______ </p></h2>
+                <form>
+                    <input type="text" id="p2" name="pergunta2" placeholder="Digite sua Resposta">
+                </form>
+               
+            
+            </section>
+            <!--Pergunta 3: senha-->
+            <section>
+                <h2> pergunta 3: Escreva um exemplo de senha forte</h2>
+                <form>
+                    <input type="password" id="p3" name="pergunta3" placeholder="Digite uma senha...">
+                </form>
+            </section>
+            <!--pergunta 4: data-->
+            <section>
+            <h2>Pergunta 4: Qual a data do seu batismo?
+            <form>
+                <input type="date" id="p4" name="pergunta4">
+            </form>
+            </section>
+            <!--pergunta 5 seleçãoo multipla-->
+            <section>
+                <h2>Quais são as linguas mais faladas no mundo?</h2>
+                <form>
+                    <input type="checkbox" id="p5a" name="pergunta5" value="Japonês">
+                    <label for="p5a">Japonês</label> <br>
+                    <input type="checkbox" id="p5b" name="pergunta5" value="inglês">
+                    <label for="p5a">inglês</label> <br>
+                    <input type="checkbox" id="p5c" name="pergunta5" value="espanhol">
+                    <label for="p5a">espanhol</label> <br>
+                    <input type="checkbox" id="p5d" name="pergunta5" value="italiano">
+                    <label for="p5d">italiano</label> <br>
+                </form>
+            </section>
+            <!--pergunta 6: upload de arquivos HTML-->
+            <section>
+                <h2>pergunta 6: faça upload de um arquivo com codigo HTML</h2>
+                <input type="file" id="p6" name="pergunta6">
+            </section>
+            <!--pergunta 7 menu suspenso-->
+            <section>
+                <h2>Qual é o maior país do mundo em território?</h2>
+                <form>
+                    <select name="pergunta7" id="p7">
+                        <option value="Brasil">Brasil</option> 
+                        <option value="Rússia">Rússia</option>
+                        <option value="EUA">EUA</option>
+                        <option value="África">África</option>
+                    </select>
+                 </form>
+                
+            </section>
+            <!--pergunta 8:imagem -->
+            <section>
+                <h2> pergunta 8: descreva o que você vê na imagem abaixo: </h2>
+                <figure>
+                   
+                    <img src="paisagem.jpg" alt="um céu estrelado e montanhas">
+                <figcaption>microsoft bing</figcaption>
+                </figure>
+                <input type="text" id="p8" name="pergunta8" placeholder="digite sua resposta">
+            </section>
+            <!--tabela de pontuação-->
+            <section> 
+                <h2>Tabela de pontuação</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Avaliação</th>
+                        </tr>
+                    </thead>
+                    
+                        <tr>
+                            <td>0-2</td>
+                            <td>Não desista!</td>
+                        </tr>
+                        <tr>
+                            <td>3-4</td>
+                            <td>Você ainda precisa melhorar!</td>
+                        </tr>
+                        <tr>
+                            <td>5-7</td>
+                            <td>Continue progredindo!</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Parabéns você fez pontuação máxima!</td>
+                    
+                        </tr>
+                <tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Espero que consiga na próxima!</td>
+                        
+                    </tr>
+                </tfoot>
+
+            
+                </tbody>
+               
+            </table>
+            </section>
+            <!--listas de respostas-->
+            <section>
+                <h2>Verifique suas respostas!</h2>
+                <details>
+                    <summary>Clique para ver as respostas</summary>
+                <ol>
+                    <li>Jupiter</li> 
+                    <li>Abel</li>
+                    <li>1234</li>
+                    <li>00/00/1914</li>
+                    <li>Inglês e espanhol</li>
+                    <li>Ester</li>
+                    <li>arquivo aleatório</li>
+                    <li>Céu estrelado com montanhas ao fundo</li>
+                </ol>
+            </details>
+            </section>
+            <!--formuladio de feedback-->
+            <section>
+                <h2>Nos dê seu feedback!</h2>
+                    
+                  <form>
+                       
+                        <fieldset>
+                           
+                            <legend>Informações de contato</legend>
+                           
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name"name="name"> <br>
+                            
+                            <label for="email">Email:</label>
+                            <input type="email" id="email"name="email"> <br>
+                           
+                            <label for="comments">Comentário</label><br>
+                            <textarea name="Comments" id="Comments" rows="4" cols="50" placeholder="Digite seus comentários aqui!"></textarea> <br>
+                            
+                            <button onclick="alert('FEEDBACK ENVIADO')">envie seu feedback</button>
+                    
+                        
+                        </fieldset>    
+                    
+                    </form>
+            </section>
+        </main>
+        
+        <section>
+            <br> <h2>Obrigada por ver minha primeira página!</h2> <br><h4>Uma foto de um doguinho como forma de agradecimento a você </h4>
+            <figure>
+                
+                <img src="dogwatermelon.jpeg" alt="dog and a watermalon">
+            <figcaption>doguinho fofinho, né não?</figcaption>
+            </figure>
+        
+        </section>
+        <footer>
+            <p class="paragrafo-footer">&copy;Direitos reservados ao fundador da página</p>
+            <p class="paragrafo-footer">Para conhecer mais sobre mim <a target="_blank" href="sobremim.html">Clique aqui</a></p>
+        </footer>
+        
+    </body>
+
+
+</html>

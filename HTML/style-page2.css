@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4ea;
+  color: #798252;
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  
+
+}
+
+header {
+    padding: 2rem;
+    background-color: #331f19;
+    text-align: center;
+   
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+   
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+figcaption {
+    margin: 1.5;
+    text-align: left;
+}
+
+img {
+    width: 20rem;
+    border-radius: 5px;
+    margin: 1.5rem;
+}
